@@ -1,0 +1,110 @@
+{
+    "version": "1.0",
+    "http_Status": "OK",
+    "status_Code": "Success",
+    "message": "Data retrieved successfully",
+    "date_Time": "2024-09-24 14:20:35",
+    "user": "PHORN PHEKDEY",
+    "data": [
+        {
+            "id": "1",
+            "question": "Using which language can a user request information from a database?",
+            "answer_1": "Query",
+            "answer_2": "Relational",
+            "answer_3": "Structural",
+            "answer_4": "Compiler",
+            "correct_answer": "a",
+            "explanation": "Query language is a method through which the database entries can be accessed."
+        },
+        {
+            "id": "2",
+            "question": "Student(ID, name, dept name, tot_cred)",
+            "answer_1": "Name",
+            "answer_2": "Dept",
+            "answer_3": "Tot_cred",
+            "answer_4": "ID",
+            "correct_answer": "d",
+            "explanation": "The attributes name, dept and tot_cred can have same values unlike ID."
+        },
+        {
+            "id": "3",
+            "question": "Which one of the following is a procedural language?",
+            "answer_1": "Domain relational calculus",
+            "answer_2": "Tuple relational calculus",
+            "answer_3": "Relational algebra",
+            "answer_4": "Query language",
+            "correct_answer": "c",
+            "explanation": "Domain and Tuple relational calculus are non-procedural language. Query language is a method through which database entries can be accessed."
+        },
+        {
+            "id": "4",
+            "question": "The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.",
+            "answer_1": "Select",
+            "answer_2": "Join",
+            "answer_3": "Union",
+            "answer_4": "Intersection",
+            "correct_answer": "b",
+            "explanation": "Join finds the common tuple in the relations and combines it."
+        },
+        {
+            "id": "5",
+            "question": "The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
+            "answer_1": "Join",
+            "answer_2": "Cartesian product",
+            "answer_3": "Intersection",
+            "answer_4": "Set difference",
+            "correct_answer": "b",
+            "explanation": "Cartesian product is the multiplication of all the values in the attributes."
+        },
+        {
+            "id": "6",
+            "question": "The _______operation performs a set union of two “similarly structured” tables",
+            "answer_1": "Union",
+            "answer_2": "Join",
+            "answer_3": "Product",
+            "answer_4": "Intersect",
+            "correct_answer": "a",
+            "explanation": "Union just combines all the values of relations of same attributes."
+        },
+        {
+            "id": "7",
+            "question": "The most commonly used operation in relational algebra for projecting a set of tuple from a relation is",
+            "answer_1": "Join",
+            "answer_2": "Projection",
+            "answer_3": "Select",
+            "answer_4": "Union",
+            "correct_answer": "c",
+            "explanation": "Select is used to view the tuples of the relation with or without some constraints."
+        },
+        {
+            "id": "8",
+            "question": "The _______ operator takes the results of two queries and returns only rows that appear in both result sets.",
+            "answer_1": "Union",
+            "answer_2": "Intersect",
+            "answer_3": "Difference",
+            "answer_4": "Projection",
+            "correct_answer": "b",
+            "explanation": "The union operator gives the result which is the union of two queries and difference is the one where query which is not a part of second query."
+        },
+        {
+            "id": "9",
+            "question": "A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.",
+            "answer_1": "Schema diagram",
+            "answer_2": "Relational algebra",
+            "answer_3": "Database diagram",
+            "answer_4": "Schema flow",
+            "correct_answer": "a",
+            "explanation": "None."
+        },
+        {
+            "id": "10",
+            "question": "The _________ provides a set of operations that take one or more relations as input and return a relation as an output.",
+            "answer_1": "Schematic representation",
+            "answer_2": "Relational algebra",
+            "answer_3": "Scheme diagram",
+            "answer_4": "Relation flow",
+            "correct_answer": "b",
+            "explanation": "None."
+        }
+    ]
+}
